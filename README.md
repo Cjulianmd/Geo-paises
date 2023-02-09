@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  # 👋 Bienvenid@ a la Tarea 2
 
 **Para hacer esta tarea, necesitas una comprensión básica de HTML, CSS y JavaScript buscamos que logres evidenciar los conocimientos esenciales para realizar aplicaciones web dinámicas con Javascript.** <br><br>
@@ -62,3 +63,7 @@ Hay muchas formas de alojar su proyecto de forma gratuita, Algunas opciones son:
 - [CSS](https://lenguajecss.com/css/)
 - [JavaScript](https://lenguajejs.com/javascript/) 
 
+=======
+# Geo-paises
+gsdf
+>>>>>>> bcdd99c4592e6f859c834962e88d67f4e5402e01
