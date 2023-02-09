@@ -1,227 +1,215 @@
 
+:root{
+    --caja_de_redes: 70px;
+    --button-color :#3ab4f5;
+    --button-color-hover : #297aa5;
+}
+.imagend{
+    width: 530px;
+    height: 300px;
+    border-radius:10%;
+   
 
-.tabbar{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 12px;
+}
+
+.bx{
+    font-size: 30px;
+}
+.boxv{
+    border-radius:30%;
+    background-color: white;
+    width: 400px;
+    height: 435px;
     align-items: center;
-    position: absolute;
-    width: 1440px;
-    height: 144px;
-   left:10%;
-    top: 0px;
-    background: White;
-    border: 1px solid;
-    display: flex;
-    padding: 0px;
-    gap: 1px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    border: 1px solid
-}
-.tabarlo{
-    width: 1440px;
-    height: 96px;
-    background:  #184A81;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-.logo{
-    position: absolute;
-    width: 120px;
-    height: 48px;
-    left: 168px;
-    top: 24px;
-
-}
-
-.nave{
-    display: flex;
-    flex-direction: row;
-    padding: 8px 12px;
-    border-radius: 10px;
-    background: white;
-    align-self: stretch;
-    position: absolute;
-    width: 100%;
-    height: 20px;
-    left: 0%;
-    top: 10%;
+    float: left;
     
+    margin-right: 5% ;
+    margin-left: 5% ;
+    margin-bottom: 5%;
+}
+.cajap{
+   align-items: center;
+    display: flex; 
 }
 
-.contnave{
-    background-color:#184A81;
-    position: absolute;
-        width: 30%;
-        height: 30%;
-        left: 25%;
-        top: 24px;
-}
-.cont-icons{
-    background-color: #184A81;
-    position: absolute;
-        width: 10%;
-        height: 30%;
-        left: 60%;
-        top: 24px;
-       
-}
-.icons{
-    width: 40px;
-    color: white; 
-}
-#carr{
-    pointer-events: unset;
-}
-.categorias{
-    display: flex;
-        padding: 8px 16px;
-        gap: 30px;
-        width: 60px;
-        height: 36px;
-        right: 40%;
-        position: relative;
-}
-.cajita{
-    height:30%;
-}
 
-.cajas{
-    background-color: white;
-    display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 122px;
-       position: relative;
-        width: 40%;
-        height: 650px;
-        left: 20%;
-        top: 216px;
-    border: 1px solid;
-    border-radius: 10%;
-    gap: 122px;
-    padding: 8px 16px;
-
-}
-.cate{
-    height: 20px;
-    font-size: 14px;
-    line-height: 20px;
-    display: flex;
+.caja{
+    height: 400px;
+    width: 600px;
     align-items: center;
-    color: #03162C;
-    flex: none;
-    order: 0;
-    cursor: pointer;
-    
-}
-
-.con2{
-    background-color: white;
-    display: none;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 122px;
-        position: absolute;
-        width: 1105px;
-        height: 1319px;
-        left:20%;
-        top: 216px;
-}
-#bots1{
     position: relative;
-    height: 20px;
-    top: 0%;
-    left: 70%;
-}
-#bot{
-    position: relative;
-    height: 20px;
-    top: 20%;
-}
-.bm{
-    color: white;
-    background-color:#184A81;
-    width: 30%;
-    height: 250%;
-}
-.tex{
-    width: 40%;
-    position: absolute;
-    top: 0%;
-    height: 100%;
-    left: 42%;
+    right: 50%;
+    left: 40%;
 
 }
-.conta1{
-    background-color: white;
-    display: none;align-items: left;
-    position: relative;
-        
-        padding: 0px;
-        gap: 122px;
-        position: absolute;
-        width: 1105px;
-        height: 1319px;
-        left:20%;
-        top: 216px;
-    
+
+.buton{
+    background-color:aqua;
+    color:white;
+    width: 100px;
+    height: 50px;
+    border-radius: 20%;
+    left: 60%;
    
 }
-.container{
-    background-color: white;
+.taks-bar{
     display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 122px;
-        position: absolute;
-        width: 1105px;
-        height: 1319px;
-        left:20%;
-        top: 216px;
-    
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 100px;
+
+    border-bottom: 1px solid black;
+    margin: 12px 0;
 }
-.img_pro{
-    width: 40%;
-    position: relative;
+.taks-bar img{
+    height: 125%;
+    margin-right: 8px;
+}
+.taks-bar-logo{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 24px;
+   
+}
+.taks-bar-logo h1{
+    font-family: 'Leckerli One', cursive;
 }
 
-.prod{
-    position: absolute;
-    width: 102px;
-    border-radius: 171px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    height: 102px;
-    top: 139%;
-    left: 20%;
+.redes{
+    margin: 0 12px 0 0;
+    background-color: var(--button-color);
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     min-height: 70px;
+     min-width: var(--caja_de_redes);
+}
+.redes:hover{
+    min-width: 75px;
+    min-height: 75px;
+}
+
+.redes i{
+    font-size: 20px;
+    color: white;
+}
+    
+
+.img-continentes{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    margin: 40px 0;
+}
+
+.img-continentes img{
+    height: 100%;
+    margin: 0 -12px;
+    transition-duration: 800ms;
     cursor: pointer;
-    transition-duration: 300ms;
 }
 
-#t1{
-    position: relative;
-     right: 0;
+.img-shadow{
+    box-shadow: 2px 2px 5px #999;
+}
+
+.img-rotate-1{
+    transform: rotate(-10deg);
+}
+
+.img-rotate-2{
+    transform: rotate(10deg);
+}
+
+.img-continentes img:hover{
+    transform: rotate(0deg);
+    height: 110%;
+    z-index: 1;
+}
+
+
+.caja2 {
+    border: 1px solid black;
+    border-radius: 3%;
+    background-color: white;
+    position: absolute;
+        left:20%;
+        width: 60%;
+        height: 80%;
+        right: 20%;
+        top: 10%;
+    display: none;
     
-     top: 5% 
 }
-.in{
-    width: 1105px;
-
+.imgver{
+    
+    border-radius: 10%;
+    position: absolute;
+        left: 5%;
+        width: 44%;
+        height: 40%;
+        right: 180px;
+        top: 5%
 }
-#imgpro{
+.img-con{
+    border: 1px solid black;
+    transform: rotate(-10deg);
+    position: absolute;
+        left: 15%;
+        width: 10%;
+        height: 20%;
+        right: 180px;
+        top: 70%
+}
+.titulo-a{
+    
+    align-items: center;
+    color: black;
+    position: absolute;
+        left: 0%;
+        bottom: 47%;
+        top: 0%;
+        right: 5%
+}
+.tecto-d{
+    
+    color: black;
+    position: absolute;
+        top: 25%;
+}
+.caja_de_texto2{
+    
+    align-content: center;
+    color: black;
     position: relative;
-    align-items: left;
-    width: 100%;
-    height: 30%;
+        height: 30%;
+        top: 47%;
+        left: 5%;
+        right: 30%;
+        width: 35%;
+
+   
+}
+.formulario{
+    position: absolute;
+        height: 70%;
+        top: 5%;
+        left: 50%;
+        right: 5%;
+        width: 50%;
+        bottom: 80%;
+}
+.input-des{
+    width:90%;
+    border-radius: 5%;
+}
+.btn-envia{
+    background-color:aqua;
+    color: white;
+    width:150px;
+    height: 30px;
+    border-radius: 10%;
 }
